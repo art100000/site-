@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-nr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Pessoal</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header{
+            background-color: #7700ff;
+            color: white;
+            width: 100%;
+            height: 80%;
+            padding: 5%;
+            font-size: larger;
+        }
+
+        header h1{
+            width: 35%;
+            position: relative;
+            top: 30%;
+        }
+
+        h1{
+            font-size: 3rem;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+            height: 80%;
+            gap:2%;
+        }
+
+        main h1{
+            font-size: 1.4rem;
+            margin-bottom: 1%;
+        }
+        .tudo{
+            background-color: #ffffff;
+            padding: 5%;
+        }
+        .perfil{
+            border-radius: 0;
+            width: 40%;
+        }
+        .sobreMim{
+            display: flex;
+            margin-bottom: 4%;
+            gap: 10%;
+        }
+        .sobreMimTexto{
+            margin: auto;
+            width: 20%;
+        }
+        .formacaoAcademica{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 4%;
+            width: 25%;
+            align-items: center;
+        }
+        .formacaoAcademicaTexto{
+            width: 50%;
+            text-align: center;
+        }
+        .experienciaproficional{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 4%;            align-items: center;
+
+        }
+        .experienciaProfissionalTexto{
+            width: 50%;
+            text-align: center;
+        }
+        .hobbies{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-bottom: 4%;
+            align-items: center;
+        }
+        .hobbiesTexto{
+            width: 50%;
+            text-align: center;
+        }
+        img{
+            
+            border-radius: 50%;
+        }
+        .contato{
+            text-align: center;
+            padding: 4%;
+        }
+        hr{
+            margin-bottom: 2%;
+        }
+
+        .contato h1{
+            margin-bottom: 2%;
+        }
+        .contato p{
+            margin-bottom: 1%;
+        }
+        li{
+            list-style: none;
+        }
+        footer{
+            text-align: center;
+            padding: 1%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seja bem-vindo(a) ao meu site pessoal</h1>
+    </header>
+    <section class="sobreMim">
+        <img src="https://img1.wsimg.com/isteam/ip/24b10a4b-66e3-407a-ac2e-5c1e7120b4b3/arthu.jpg/:/" alt="" class="perfil">
+        <div class="sobreMimTexto">  
+        <h1>Quem sou eu?</h1>
+        <p>Me chamo Arthur Gonçalves Figueirôa tenho 18 anos curso Sistemas para Internet na UNICAP. Tenho facilidade em trabalhar em grupo, sou um bom líder e sou muito pró-ativo.</p>
+        </div>
+    </section>
+    <main>
+        <section class="tudo">
+        </section>
+        <section class="formacaoAcademica">
+            <img src="https://img1.wsimg.com/isteam/stock/102158/:/cr=t:0%25,l:16.67%25,w:66.67%25,h:100%25/rs=w:365,h:365,cg:true" alt="">
+            <div class="formacaoAcademicaTexto">
+                <h1>Formação Acadêmica</h1>
+                <p>Ensino médio completo. Cursando o 1° período de Sistemas para Internet na UNICAP.
+                    </p>
+            </div>
+        </section>
+        <section class="experienciaproficional">
+            <img src="https://img1.wsimg.com/isteam/ip/24b10a4b-66e3-407a-ac2e-5c1e7120b4b3/pexels-vojtech-okenka-127162-392018.jpg/:/cr=t:0%25,l:16.66%25,w:66.68%25,h:100%25/rs=w:365,h:365,cg:true" alt="">
+            <div class="experienciaProfissionalTexto"><h1> Experiência Profissional</h1>
+            <p>Gerente da loja variu`s de 2022 à 2024.
+            </p>
+        </div>
+        </section>
+        <section class="hobbies">
+            <img src="https://img1.wsimg.com/isteam/stock/126960/:/cr=t:0%25,l:16.68%25,w:66.65%25,h:100%25/rs=w:365,h:365,cg:true" alt="">
+            <div class="hobbiesTexto">
+                <h1>Habilidades Pessoais
+                </h1>
+                <p>Jogar xadrez, leio livros e faço pequenas animações.</p>
+        </div>
+        </section>
+    </section>
+    </main>
+    <section class="contato">
+        <h1>Contatos</h1>
+        <hr>
+        <p>Você pode me contatar pelos seguintes meios:</p>
+        <ul>
+            <li><b>Email:</b>artfa9073@gmail.com</li>
+            <li><b>Número:</b>(81) 98624-1498  </li>
+        </ul>
+    </section>
+    <footer>
+        <p>Copyright © 2024 Arthur – Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
